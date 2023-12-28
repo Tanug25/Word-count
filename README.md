@@ -20,7 +20,7 @@ End the program.
 ## PROGRAM:
 Developed by:Tanushree A
 Registered number:23004953
-
+'''
 def wordcount(filename):
     count=0
     with open(filename,"r") as f:
@@ -31,6 +31,7 @@ def wordcount(filename):
      print("Total number of word:",count)
      filename=input("Enter Filename:")
      wordcount(filename)
+     '''
 ### OUTPUT:
 
 ![word count op 1](https://github.com/Tanug25/Word-count/assets/138849166/4466e488-90a0-4865-b768-879b2218074f)
